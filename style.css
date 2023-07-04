@@ -23,40 +23,26 @@
     color: #333;
 }
 
-.linkbtn{
-    margin: auto;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
 .btn-container{
     margin: auto;
     padding: 6px;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    bottom: auto;
-    left: auto;
-    right: auto;
-    top: auto;
-    position: absolute;
-    background-color: #eee;
     outline: none;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     color: blue !important;
-    font-size: 14px;
+    font-size: 30px;
     font-weight: bold !important;
-    cursor: pointer;
+    cursor: auto;
+    
 }
 
 .btn{
     margin: auto;
+    size: auto;
+    height: 30px;
     padding: 3px;
     justify-content: center;
     align-items: center;
@@ -76,13 +62,10 @@
     font-size: 14px;
 }
 
-body{
-    background-color: #eee;
-}
-
 .btn2{
     margin: auto;
     padding: 3px;
+    height: 30px;
     justify-content: center;
     align-items: center;
     border-left-color:blue;
@@ -101,28 +84,10 @@ body{
     color: white;
 }
 
-.btn-container2{
-    margin: auto;
-    padding: 3px;
-    justify-content: center;
-    align-items: center;
-    border-left-color:blue;
-    border-right-color:blue;
-    border-top-color:blue;
-    border-bottom-color:blue;
-    outline: none;
-    border-radius: 5px;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: none;
-    font-weight: bold;
-    font-size: 14px;
-}
-
 .btn3{
     margin: auto;
     padding: 3px;
+    height: 30px;
     justify-content: center;
     align-items: center;
     border-left-color: aqua;
@@ -143,6 +108,7 @@ body{
 
 .btn4{
     margin: auto;
+    height: 30px;
     padding: 3px;
     justify-content: center;
     align-items: center;
@@ -169,6 +135,7 @@ body{
 .btn5{
     margin: auto;
     padding: 3px;
+    height: 30px;
     justify-content: center;
     align-items: center;
     border-left-color: green;
@@ -185,4 +152,46 @@ body{
     font-size: 14px;
     color: white!important;
     background-color: green;
+}
+
+.btn-container2{
+    margin: auto;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    border-left-color:blue;
+    border-right-color:blue;
+    border-top-color:blue;
+    border-bottom-color:blue;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+body{
+    background-color: #eee;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    max-width: 1000px;
+    height: auto !important;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #333;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
