@@ -14,6 +14,8 @@
     background-color: #eee;
     outline: none;
     border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .container-btn:hover{
@@ -31,6 +33,156 @@
     cursor: pointer;
 }
 
+.btn-container{
+    margin: auto;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    position: absolute;
+    background-color: #eee;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    color: blue !important;
+    font-size: 14px;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+.btn{
+    margin: auto;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    border-left-color: red;
+    border-right-color: red;
+    border-top-color: red;
+    border-bottom-color: red;
+    color: aliceblue;
+    background-color: red;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 body{
     background-color: #eee;
+}
+
+.btn2{
+    margin: auto;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    border-left-color:blue;
+    border-right-color: blue;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    background-color: blue;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.btn-container2{
+    margin: auto;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    border-left-color:blue;
+    border-right-color:blue;
+    border-top-color:blue;
+    border-bottom-color:blue;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn3{
+    margin: auto;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    border-left-color: aqua;
+    border-right-color: aqua;
+    border-top-color: aqua;
+    border-bottom-color: aqua;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white  !important; 
+    background-color: aqua;
+}
+
+.btn4{
+    margin: auto;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    border-left-color: aliceblue;
+    border-right-color: aliceblue;
+    border-top-color: aliceblue;
+    border-bottom-color: aliceblue;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(14, 5, 14) !important;
+    background-color: aliceblue;
+    border-top-color: aliceblue;
+    border-bottom-color: aliceblue;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn5{
+    margin: auto;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    border-left-color: green;
+    border-right-color: yellowgreen;
+    border-top-color: green;
+    border-bottom-color: greenyellow;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white!important;
+    background-color: green;
 }
