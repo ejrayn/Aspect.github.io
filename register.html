@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flask documentation</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -13,7 +13,7 @@
 
     <div class="form_field">
     <label for="email"><b>Enter Email :</b></label>
-    <input type="email" id="email" class="form__field" name="email" placeholder="Email" maxlength="16" required>
+    <input type="email" id="email" class="form__field" name="email" placeholder="Email" maxlength="20" required>
     <p>
     <label for="username"><b>Username :</b></label>
     <input type="text" id="username" class="form__field" name="username" placeholder="Username" maxlength="12" required>
@@ -37,11 +37,17 @@
     
     <div class="container">
         <p>
-        <button class="container-btn" type="reset" value="reset">Reset</button>
+        <button class="container-btn" type="reset" value="reset"><svg width="20" height="15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 12 12 2 2 12l10 10 5.5-5.5"></path>
+            <path d="M11 12s6.25-.25 8.75 2.25S19.5 22 19.5 22"></path>
+            <path d="m13 10-2 2 2 2"></path>
+          </svg>Reset</button>
+        <a href="login.html"><button class="container-btn" type="submit" ><svg width="20" height="15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="m21.5 5.5-13.063 13L2.5 12.59"></path>
+          </svg>Submit</button></a>
     </p>
-    </form>
      </div>
-        <a href="login.html"><button class="container-btn" type="submit" value="submit">Submit</button></a>
 
+    </form>
 </body>
 </html>
